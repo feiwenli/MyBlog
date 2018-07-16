@@ -7,9 +7,9 @@ COPY my-blog /usr/work/
 COPY build.sh /usr/work/
 COPY run.sh /usr/work/
 
-RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates asciidoc    && rm -rf /var/lib/apt/lists/*
+# RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates asciidoc    && rm -rf /var/lib/apt/lists/*
 
-Download and install hugo
+# Download and install hugo
 ENV HUGO_VERSION 0.44
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
 

@@ -1,3 +1,3 @@
 #!/bin/sh
-cd usr/work/my-blog
+cd my-blog
 hugo server
