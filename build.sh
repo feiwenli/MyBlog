@@ -1,3 +1,2 @@
 #!/bin/sh
-cd my-blog
-hugo server
+docker build -t myblog:t .
