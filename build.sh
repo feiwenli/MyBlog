@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t myblog:t .
+docker build -t myblogfw:t .
