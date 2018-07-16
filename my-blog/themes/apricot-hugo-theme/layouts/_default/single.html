@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<article >
+  {{/*  <h1 class="title"> {{ partial "article_title" .}}</h1> */}}
+
+{{ partial "article_meta" . }}
+
+<div class="content">
+  {{ .Content }}
+</div>
+</article>
+
+{{ partial "disqus" . }}
+
+{{end}}

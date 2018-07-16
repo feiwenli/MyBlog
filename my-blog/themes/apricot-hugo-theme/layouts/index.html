@@ -1,0 +1,18 @@
+{{/* template "theme/_default/list.html" .*/}}
+{{ define "main" }}
+{{ range sort .Paginator.Pages }}
+<article>
+  <h1>
+    <a href="{{ .Permalink }}"> {{ partial "article_title" . }} </a>
+  </h1>
+  {{ partial "article_meta" . }}
+  {{ .Summary | plainify | safeHTML }}
+  {{ if .Truncated }}
+  <br />
+  <a class="read-more" href="{{ .Permalink }}"> [Read more...] </a>
+  {{ end }}
+</article>
+{{ end }}
+{{ partial "pager" . }}
+
+{{ end }}

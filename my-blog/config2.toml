@@ -1,0 +1,27 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+title = "学习笔记"
+theme = "apricot-hugo-theme"
+summaryLength = 15
+copyright = "Copyright &copy; 2018 (INSERT MY NAME). All Rights Reserved."
+
+# Pagination.  Show 10 articles in the home page
+paginate = 10
+
+sectionPagesMenu = "main"
+[menu]
+ [[menu.main]]
+    name = "Github"
+    url = "https://github.com/feiwenli"
+    weight = -110
+
+[blackfriday]
+    extensions = [ "noEmptyLineBeforeBlock"]
+  extensionsmask = ["spaceHeaders", "backslashLineBreak"]
+
+[params]
+  email = "lfw_dar@163.com"
+  github= "feiwenli"
+  headerImage = "https://source.unsplash.com/zgTXw53Pdko/800x450"

@@ -1,0 +1,2 @@
+{{ if .Title }} {{- .Title -}} {{ else }} {{- .File.TranslationBaseName | title -}} {{ end }}
+{{/* use filename if frontmatter is missing title */}}

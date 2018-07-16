@@ -1,0 +1,6 @@
+[submodule "my-blog/themes/hugo-bootstrap"]
+	path = my-blog/themes/hugo-bootstrap
+	url = https://github.com/Xzya/hugo-bootstrap.git
+[submodule "my-blog/themes/apricot-hugo-theme"]
+	path = my-blog/themes/apricot-hugo-theme
+	url = https://github.com/otterpro/apricot-hugo-theme.git

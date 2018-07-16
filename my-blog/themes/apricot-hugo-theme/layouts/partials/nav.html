@@ -1,0 +1,12 @@
+{{/* TODO: NOT USED YET */}}
+      <div class="nav-right">
+        <nav class="nav-item">
+          {{ range .Site.Params.social }}
+          <a class="level-item" href="{{ .url }}">
+            <span class="icon">
+              <i class="fa {{ .fa_icon }}"></i>
+            </span>
+          </a>
+          {{ end }}
+        </nav>
+      </div>

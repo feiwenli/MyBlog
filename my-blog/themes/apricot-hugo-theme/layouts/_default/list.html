@@ -1,0 +1,17 @@
+{{/* Archive list - every blog post, no summary */}}
+{{ define "main" }}
+<div class="wrapper">
+{{ range .Data.Pages.GroupByDate "2006" }}
+<h1>{{ .Key }}</h1>
+<ul>
+    {{ range .Pages }}
+    <li>
+
+    <a href="{{ .Permalink }}"> {{ partial "article_title" . }} </a>
+      <span class="article-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+</div>
+{{ end }}

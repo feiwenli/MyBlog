@@ -1,0 +1,3 @@
+{{ range . }}
+    <a class="tag" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+{{ end }}
