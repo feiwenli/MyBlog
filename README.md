@@ -1,4 +1,4 @@
-- 使用hugo搭建的博客
+- 使用hugo+docker搭建的博客
 - 使用步骤
 	- 克隆到本地：
 	git clone git@github.com:feiwenli/myblog.git
