@@ -1,4 +1,4 @@
-- 日常学习笔记
+- 使用hugo搭建的博客
 - 使用步骤
 	- 克隆到本地：
 	git clone git@github.com:feiwenli/myblog.git
